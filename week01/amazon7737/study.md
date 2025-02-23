@@ -53,14 +53,12 @@ JRE : Java Runtime Environment (자바 실행 환경)
 JVM : Java Virtual Machine (자바 가상 기계)
 
 <table>
-  <tr>
     <th>
     이름  
     </th>
     <th>
     실행 영역  
     </th>
-  </tr>
   
   <th>
     <td>스태틱(static) 영역</td>
