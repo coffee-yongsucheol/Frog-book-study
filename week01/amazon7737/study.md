@@ -62,10 +62,10 @@ JVM : Java Virtual Machine (자바 가상 기계)
     </th>
   </tr>
   
-  <tr>
+  <th>
     <td>스태틱(static) 영역</td>
     <td>스택(Stack) 영역</td>
     <td>힙(Heap) 영역</td>
-  </tr>
+  </th>
 </table>
 
