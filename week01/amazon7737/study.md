@@ -63,14 +63,9 @@ JVM : Java Virtual Machine (자바 가상 기계)
   </tr>
   
   <tr>
-    <th>
     <td>스태틱(static) 영역</td>
     <td>스택(Stack) 영역</td>
     <td>힙(Heap) 영역</td>
-    </th>
-      <td>클래스의 놀이터</td>
-      <td>메서드의 놀이터</td>
-      <td>객체의 놀이터</td>
   </tr>
 </table>
 
