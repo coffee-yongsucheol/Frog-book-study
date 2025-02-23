@@ -53,22 +53,20 @@ JRE : Java Runtime Environment (자바 실행 환경)
 JVM : Java Virtual Machine (자바 가상 기계)
 
 <table>
-    <th>
-        <td>
-        이름
-        </td>
-    <td>
-        실행 영역
-    </td>
-    </th>
+<tr>
+    <th>실행영역</th>
+    <th>역할</th>
+</tr>
+
   
-  <th>
+  <tr>
     <td>스태틱(static) 영역</td>
     <td>스택(Stack) 영역</td>
     <td>힙(Heap) 영역</td>
-  </th>
-</table>
-
-<td>클래스의 놀이터</td>
+  </tr>
+  <tr>
+      <td>클래스의 놀이터</td>
       <td>메서드의 놀이터</td>
       <td>객체의 놀이터</td>
+  </tr>
+</table>
