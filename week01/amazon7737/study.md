@@ -47,12 +47,34 @@ a = 1+3;
 
 ## 2장 자바와 절차적/구조적 프로그래밍
 
-
-JDK : Java Development Kit (자바 개발 도구)
-JRE : Java Runtime Environment (자바 실행 환경)
-JVM : Java Virtual Machine (자바 가상 기계)
+### 자바 프로그램 개발과 구동 도구
 
 <table>
+<tr>
+<td>이름</td>
+<td>설명</td>
+</tr>
+
+<tr>
+<td>JDK(Java Development Kit) </td>
+<td>자바 개발 도구 </td>
+</tr>
+
+<tr>
+  <td>JRE(Java Runtime Environment)</td>
+<td>자바 실행 환경</td>
+</tr>
+
+<tr>
+<td>JVM(Java Virtual Machine)</td>
+<td>자바 가상 기계</td>
+</tr>
+</table>
+
+<table>
+
+### T 메모리 구조
+
 <tr>
 <td>실행영역</td>
 <td>역할</td>
@@ -73,4 +95,25 @@ JVM : Java Virtual Machine (자바 가상 기계)
 <td>객체의 놀이터</td>
 </tr>
 </table>
+
+### 다시 보는 main() 메서드 : 메서드 스택 프레임
+
+```
+public class Start{
+  public static void main(String[] args){
+    System.out.println("Hello OOP!!!");
+  }
+}
+```
+
+위 코드를 실행하면 T 메모리는 어떤 상태일까?
+
+#### main() 메서드가 실행되기 전 JVM에서 수행하는 전처리 작업들
+
+- java.lang 패키지를 T메모리의 스태틱 영역에 배치한다.
+- import된 패키지를 T 메모리의 스태틱 영역에 배치한다.
+- 프로그램 상의 모든 클래스를 T 메모리의 스태틱 영역에 배치한다.
+
+중괄호(블록)을 기점으로 스택 메서드 프레임이 생성되고 제거된다. 중괄호 내의 일어난 일들은 스택 메서드 프레임이 삭제되면서 해당 프레임 내부의 변수 프레임들도 같이 삭제가 된다.
+
 
