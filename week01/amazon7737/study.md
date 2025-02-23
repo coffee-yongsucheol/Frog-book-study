@@ -54,10 +54,12 @@ JVM : Java Virtual Machine (자바 가상 기계)
 
 <table>
     <th>
-    이름  
-    </th>
-    <th>
-    실행 영역  
+        <td>
+        이름
+        </td>
+    <td>
+        실행 영역
+    </td>
     </th>
   
   <th>
@@ -67,3 +69,6 @@ JVM : Java Virtual Machine (자바 가상 기계)
   </th>
 </table>
 
+<td>클래스의 놀이터</td>
+      <td>메서드의 놀이터</td>
+      <td>객체의 놀이터</td>
