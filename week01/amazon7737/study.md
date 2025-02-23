@@ -45,4 +45,27 @@ a = 1+3;
 
 ---
 
+## 2장 자바와 절차적/구조적 프로그래밍
+
+
+JDK : Java Development Kit (자바 개발 도구)
+JRE : Java Runtime Environment (자바 실행 환경)
+JVM : Java Virtual Machine (자바 가상 기계)
+
+<table>
+  <tr>
+    <th>
+    이름  
+    </th>
+    <th>
+    실행 영역  
+    </th>
+  </tr>
+  
+  <tr>
+    <td>스태틱(static) 영역</td>
+    <td>스택(Stack) 영역</td>
+    <td>힙(Heap) 영역</td>
+  </tr>
+</table>
 
