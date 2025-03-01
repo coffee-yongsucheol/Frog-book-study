@@ -40,10 +40,11 @@
 
 <tr>
 <td>클래스 모델링</td>
-<td>![image](https://github.com/user-attachments/assets/901056a5-8f52-407b-a6a7-42ea3aa4b9eb)
+<td>
+  <img src = "https://github.com/user-attachments/assets/901056a5-8f52-407b-a6a7-42ea3aa4b9eb" />
 </td>
 <td>
-  ![image](https://github.com/user-attachments/assets/9f86a777-60ce-44cb-8b55-7d06344275bd)
+  <img src = "https://github.com/user-attachments/assets/9f86a777-60ce-44cb-8b55-7d06344275bd" />
 </td>
 </tr>
 
