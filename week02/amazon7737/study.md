@@ -41,10 +41,10 @@
 <tr>
 <td>클래스 모델링</td>
 <td>
-  <img src = "https://github.com/user-attachments/assets/901056a5-8f52-407b-a6a7-42ea3aa4b9eb" />
+  <img src = "https://github.com/user-attachments/assets/901056a5-8f52-407b-a6a7-42ea3aa4b9eb" width = "400" height = "400" />
 </td>
 <td>
-  <img src = "https://github.com/user-attachments/assets/9f86a777-60ce-44cb-8b55-7d06344275bd" />
+  <img src = "https://github.com/user-attachments/assets/9f86a777-60ce-44cb-8b55-7d06344275bd" width = "400" height = "400" />
 </td>
 </tr>
 
