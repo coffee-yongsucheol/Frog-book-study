@@ -154,27 +154,22 @@
 #### 변수 유형
 
 <table>
-
-  
 <tr>
 <td>이름</td>
-<td>다른 이름</td>
-<td>T 메모리</td>
-</tr>
-
-<tr>
 <td>static 변수</td>
 <td>instance 변수</td>
 <td>local 변수</td>
 </tr>
 
 <tr>
+<td>다른 이름</td>
 <td>클래스 [멤버] 속성, 정적 변수, 정적 속성</td>
 <td>객체 [멤버] 속성, 객체 변수</td>
 <td>지역 변수</td>
 </tr>
 
 <tr>
+<td>T 메모리</td>
 <td>스태틱 영역</td>
 <td>힙 영역</td>
 <td>스택 영역(스택 프레임)</td>
