@@ -154,11 +154,11 @@
 #### 변수 유형
 
 <table>
-<th>
+<tr>
 <td>이름</td>
 <td>다른 이름</td>
 <td>T 메모리</td>
-</th>
+</tr>
 
 <tr>
   <td>static 변수</td>
