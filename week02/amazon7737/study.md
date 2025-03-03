@@ -154,12 +154,12 @@
 #### 변수 유형
 
 <table>
-<tr>
+<th>
 <td>이름</td>
 <td>static 변수</td>
 <td>instance 변수</td>
 <td>local 변수</td>
-</tr>
+</th>
 
 <tr>
 <td>다른 이름</td>
