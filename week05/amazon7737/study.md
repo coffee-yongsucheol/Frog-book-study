@@ -191,6 +191,54 @@ public class Penguin extends Animal {
 
 자신의 멤버가 아닌 다른 객체의 멤버에 접근하는 경우에는 다른 객체를 생성한 후 접근해야 한다.
 
+### 참조 변수의 복사
+
+```java
+public class CallByValue {
+  public static void main(String[] args) {
+    int a = 10;
+    int b = a;
+
+    b = 20;
+
+    System.out.println(a); // 10
+    System.out.println(b); // 20
+  }
 ```
 
+- a에 10대입
+- 변수 b에 변수 a가 가진 값 복사
+- 변수 b에 20을 할당
+- a가 가진 값이 단순히 b에 복사, a와 b 변수는 다른 관계는 없음
+
+```java
+public class CallByReference {
+  public static void main(String[] args) {
+    Animal ref_a = new Animal();
+    Animal ref_b = ref_a;
+
+    ref_a.age = 10;
+    ref_b.age = 20;
+
+    System.out.println(ref_a.age); // 20
+    System.out.println(ref_b.age); // 20
+    System.out.println(ref_a); // reference.Animal@15db9742
+    System.out.println(ref_b); // 바로 위와 같은 값이 출력됨
+  }
+}
+
+class Animal {
+  public int age;
+}
 ```
+
+위 예제를 실행해보면 ref_a 와 ref_b는 같은 참조값을 가지고 있는 것을 알 수 있다.
+
+### 정리
+
+- 기본 자료형 변수는 값을 값 자체로 판단한다.
+- 참조 자료형 변수는 값을 주소, 즉 포인터로 판단한다.
+- 기본 자료형 변수를 복사할 때, 참조 자료형 변수를 복사할 때 일어나는 일은 같다. 즉, 가지고 있는 값을 그대로 복사해서 넘겨 준다.
+
+
+
