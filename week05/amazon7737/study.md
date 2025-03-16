@@ -240,5 +240,59 @@ class Animal {
 - 참조 자료형 변수는 값을 주소, 즉 포인터로 판단한다.
 - 기본 자료형 변수를 복사할 때, 참조 자료형 변수를 복사할 때 일어나는 일은 같다. 즉, 가지고 있는 값을 그대로 복사해서 넘겨 준다.
 
+### 자바 키워드와 OOP 4대 특성
+
+| 예약어 |
+|--------|
+| abstract |
+| assert |
+| boolean |
+| break |
+| byte |
+| case |
+| catch |
+| char |
+| class |
+| const |
+| continue |
+| default |
+| do |
+| double |
+| else |
+| enum |
+| extends |
+| final |
+| finally |
+| float |
+| for |
+| goto |
+| if |
+| implements |
+| import |
+| instanceof |
+| int |
+| interface |
+| long |
+| native |
+| new |
+| package |
+| private |
+| protected |
+| public |
+| return |
+| short |
+| static |
+| strictfp |
+| super |
+| switch |
+| synchronized |
+| this |
+| throw |
+| throws |
+| transient |
+| try |
+| void |
+| volatile |
+| while |
 
 
