@@ -98,4 +98,4 @@ Call By Value와 Call By Reference를 다르다고 이해하기보다는 기본 
 
 ## 자바 키워드와 OOP 4대 특성
 
-![image.png](attachment0c84579e-7a09-4035-8e89-e58f189db991image.png)
+사진 참고
