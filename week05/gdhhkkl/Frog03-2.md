@@ -9,7 +9,7 @@
 
 객체지향 설계 5원칙 **SOLID(SRP,OCP,LSP,ISP,DIP)**
 
-![[Pasted image 20250317131618.png]]
+![image](https://github.com/user-attachments/assets/f7f32070-c61e-4f60-b98b-51fd1ef42509)
 
 LSP:**서브 타입은 언제나 기반 타입으로 교체**할 수 있어야 한다는 것을 뜻한다.
 서브타입....?(다형성?)
@@ -51,4 +51,5 @@ public void setWidth(int width){
 ### 캡술화
 객체 멤버의 접근 제어자
 private,defalut, protected, public
-![[Pasted image 20250317144342.png]]
+![image](https://github.com/user-attachments/assets/f384bed3-15f3-4501-b233-52dbee78f6c1)
+
