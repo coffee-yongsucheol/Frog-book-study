@@ -1,3 +1,4 @@
+#Frog04
 
 추상메서드 : 선언부는 있는데, 구현부가 없는 메서드
 추상 클래스 - 추상 메서드를 하나라도 갖고 있는 클래스
@@ -12,7 +13,8 @@ Animal(); ---> 객체 생성자 메서드(생성자)
 인자가 있는 생성자를 하나라도 만든다면 자바는 기본 생성자를 만들어 주지 않는다. 
 
 ### Static
-![[Pasted image 20250324153241.png]]
+![스크린샷 2025-03-24 153234](https://github.com/user-attachments/assets/16ecce9b-2669-4905-b7e9-c87379b670ef)
+
 
 -클래스의 정적 속성을 사용 할 때
 -클래스의 정적 메서드를 사용 할 때
@@ -40,5 +42,9 @@ final 이 메서드에 붙으면 오버라이딩 불가능
 ### Super
 
 단일 상속만 지원하는 자바에서 super는 바로 위 사위 클래스이 인스턴스를 지칭하는 키워드
-![[Pasted image 20250324152531.png]]![[Pasted image 20250324152542.png]]
-![[Pasted image 20250324152553.png]]
+![스크린샷 2025-03-24 152519](https://github.com/user-attachments/assets/56a893ac-d497-4eeb-96c2-8cd8d81cc051)
+![스크린샷 2025-03-24 152539](https://github.com/user-attachments/assets/6721d1a4-45dc-4d61-9760-a3ad4ccc602e)
+![스크린샷 2025-03-24 152551](https://github.com/user-attachments/assets/3daf7627-5829-4cba-928c-b1ed01cd15d6)
+
+
+
